@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API InfoProvinciasRD</name>
+    </assembly>
+    <members>
+        <member name="M:API_InfoProvinciasRD.Controllers.ProvinciaController.GetAllProvincias">
+            <summary>
+            Get all the Provincias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.ProvinciaController.GetProvinciaById(System.Int32)">
+            <summary>
+            Get a Provincia by it's Id
+            </summary>
+            <param name="provinciaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.ProvinciaController.SearchProvincia(System.String)">
+            <summary>
+            Search for a Provincia by it's name
+            </summary>
+            <param name="nameProvincia"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.ProvinciaController.CreateProvincia(API_InfoProvinciasRD.Models.Dto.ProvinciaCreateDto)">
+            <summary>
+            Create a Provincia
+            </summary>
+            <param name="provinciaCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.ProvinciaController.UpdateProvincia(System.Int32,API_InfoProvinciasRD.Models.Dto.ProvinciaUpdateDto)">
+            <summary>
+            Update Provincia
+            </summary>
+            <param name="provinciaId"></param>
+            <param name="provinciaUpdateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.ProvinciaController.DeleteProvincia(System.Int32)">
+            <summary>
+            Delete an existing Provincia
+            </summary>
+            <param name="provinciaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.RegionController.GetRegions">
+            <summary>
+            Get all the Regions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.RegionController.GetRegion(System.Int32)">
+            <summary>
+            Get Region by it's Id
+            </summary>
+            <param name="RegionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.RegionController.CreateRegion(API_InfoProvinciasRD.Models.Dto.RegionDto)">
+            <summary>
+            Create a Region
+            </summary>
+            <param name="regionDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.RegionController.UpdateRegion(System.Int32,API_InfoProvinciasRD.Models.Dto.RegionDto)">
+            <summary>
+            Update Region
+            </summary>
+            <param name="regionId"></param>
+            <param name="regionDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.RegionController.DeleteRegion(System.Int32)">
+            <summary>
+            Delete Region
+            </summary>
+            <param name="regionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.UserController.GetUsers">
+            <summary>
+            Get all the users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.UserController.GetUser(System.Int32)">
+            <summary>
+            Get the user by it's id
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.UserController.RegisterUser(API_InfoProvinciasRD.Models.UserAuthDto)">
+            <summary>
+            Register a new user
+            </summary>
+            <param name="userAuthDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API_InfoProvinciasRD.Controllers.UserController.Login(API_InfoProvinciasRD.Models.Dto.UserLoginDto)">
+            <summary>
+            Login/Access with an user account
+            </summary>
+            <param name="userLoginDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

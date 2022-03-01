@@ -1,0 +1,67 @@
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.AssemblyInfoInputs.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.AssemblyInfo.cs
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.csproj.CoreCompileInputs.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\appsettings.json
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.exe
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.deps.json
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.runtimeconfig.json
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.runtimeconfig.dev.json
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\ref\API InfoProvinciasRD.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.pdb
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\scopedcss\bundle\API InfoProvinciasRD.styles.css
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\staticwebassets\API InfoProvinciasRD.StaticWebAssets.Manifest.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.RazorTargetAssemblyInfo.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.csproj.CopyComplete
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\ref\API InfoProvinciasRD.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.pdb
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.genruntimeconfig.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\obj\Debug\net5.0\API InfoProvinciasRD.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Eleikel\Documents\CURSO C#\API NET CORE\API NetCore\API InfoProvinciasRD\bin\Debug\net5.0\API InfoProvinciasRD.xml

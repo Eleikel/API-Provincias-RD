@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_InfoProvinciasRD.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220227171130_Migration-User")]
+    [Migration("20220301082402_Migration-User")]
     partial class MigrationUser
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,9 @@ namespace API_InfoProvinciasRD.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RutaImagen")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Superficie")

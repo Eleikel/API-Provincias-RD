@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API NetCore\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj": {}
+    "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API Provincias RD\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API NetCore\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj": {
+    "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API Provincias RD\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API NetCore\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj",
+        "projectUniqueName": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API Provincias RD\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj",
         "projectName": "API InfoProvinciasRD",
-        "projectPath": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API NetCore\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj",
+        "projectPath": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API Provincias RD\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj",
         "packagesPath": "C:\\Users\\Eleikel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API NetCore\\API InfoProvinciasRD\\obj\\",
+        "outputPath": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API Provincias RD\\API InfoProvinciasRD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

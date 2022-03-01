@@ -4,10 +4,12 @@ using API_InfoProvinciasRD.Repository.IConfiguration;
 using API_InfoProvinciasRD.Repository.IRepositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -22,11 +24,13 @@ namespace API_InfoProvinciasRD.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private IWebHostEnvironment _hostingEnvironment;
 
-        public ProvinciaController(IUnitOfWork unitOfWork, IMapper mapper)
+        public ProvinciaController(IUnitOfWork unitOfWork, IMapper mapper, IWebHostEnvironment hostingEnvironment)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         /// <summary>
@@ -57,7 +61,7 @@ namespace API_InfoProvinciasRD.Controllers
         /// <param name="provinciaId"></param>
         /// <returns></returns>
         [AllowAnonymous]
-        [HttpGet("{provinciaId:int}", Name ="GetProvinciaById")]
+        [HttpGet("{provinciaId:int}", Name = "GetProvinciaById")]
         [ProducesResponseType(200, Type = typeof(ProvinciaDto))]  // El 'ProducesResponseType' es importante ponerlo
         [ProducesResponseType(404)]
         [ProducesDefaultResponseType]
@@ -117,7 +121,7 @@ namespace API_InfoProvinciasRD.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> CreateProvincia([FromBody] ProvinciaCreateDto provinciaCreateDto)
+        public async Task<IActionResult> CreateProvincia([FromForm] ProvinciaCreateDto provinciaCreateDto)
         {
             if (provinciaCreateDto == null)
             {
@@ -129,6 +133,30 @@ namespace API_InfoProvinciasRD.Controllers
                 ModelState.AddModelError("", $"La región {provinciaCreateDto.Nombre} ya existe.");
                 return StatusCode(404, ModelState);
             }
+
+
+            /******************************************************************************/
+            /* Subida de archivos */
+            var archivo = provinciaCreateDto.Foto;
+            string rutaPrincipal = _hostingEnvironment.WebRootPath;
+            var archivos = HttpContext.Request.Form.Files;
+
+            if (archivo.Length > 0)
+            {
+                //Nueva imagen
+
+                var nombreFoto = Guid.NewGuid().ToString();
+                var subidas = Path.Combine(rutaPrincipal, @"fotos");
+                var extension = Path.GetExtension(archivos[0].FileName);
+
+                using (var fileStream = new FileStream(Path.Combine(subidas, nombreFoto + extension), FileMode.Create))
+                {
+                    archivos[0].CopyTo(fileStream);
+                }
+
+                provinciaCreateDto.RutaImagen = @"\fotos\" + nombreFoto + extension;
+            }
+            /******************************************************************************/
 
             var provincia = _mapper.Map<Provincia>(provinciaCreateDto);
 
@@ -153,14 +181,38 @@ namespace API_InfoProvinciasRD.Controllers
         [ProducesResponseType(204)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> UpdateProvincia(int provinciaId, [FromBody] ProvinciaUpdateDto provinciaUpdateDto)
+        public async Task<IActionResult> UpdateProvincia(int provinciaId, [FromForm] ProvinciaUpdateDto provinciaUpdateDto)
         {
             if (provinciaUpdateDto == null || provinciaId != provinciaUpdateDto.Id)
             {
                 return BadRequest(ModelState);
             }
 
-            
+
+            /******************************************************************************/
+            /* Subida de archivos */
+            var archivo = provinciaUpdateDto.Foto;
+            string rutaPrincipal = _hostingEnvironment.WebRootPath;
+            var archivos = HttpContext.Request.Form.Files;
+
+            if (archivo.Length > 0)
+            {
+                //Actualizar imagen
+                var nombreFoto = Guid.NewGuid().ToString();
+                var subidas = Path.Combine(rutaPrincipal, @"fotos");
+                var extension = Path.GetExtension(archivos[0].FileName);
+
+                using (var fileStream = new FileStream(Path.Combine(subidas, nombreFoto + extension), FileMode.Create))
+                {
+                    archivos[0].CopyTo(fileStream);
+                }
+
+                provinciaUpdateDto.RutaImagen = @"\fotos\" + nombreFoto + extension;
+            }
+            /******************************************************************************/
+
+
+
             var provincia = _mapper.Map<Provincia>(provinciaUpdateDto);
 
             if (!await _unitOfWork.Provincia.Update(provincia))
@@ -204,6 +256,7 @@ namespace API_InfoProvinciasRD.Controllers
 
             return Content($"Se elimino el registro {provincia.Nombre}");
         }
+
 
     }
 }

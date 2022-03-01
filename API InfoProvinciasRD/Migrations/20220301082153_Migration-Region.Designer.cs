@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_InfoProvinciasRD.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220227090034_Migration-Region")]
+    [Migration("20220301082153_Migration-Region")]
     partial class MigrationRegion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YcDnjGfu5aWgWIsr/DjJxb2hPMSe+2gYOvMja7C6z7+2IP9wRNRqSKqn3HyvyLlHYdclmRhAbfZyBqiGE79KJg==",
+  "dgSpecHash": "nvfFiEQez1rbXrfmRY0tTUyBs4yhkbno0/iz/r9KXcyHpL471DvbIriRE+/G+CQkim1WUHWNDEhWP96fWKwRpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API NetCore\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj",
+  "projectFilePath": "C:\\Users\\Eleikel\\Documents\\CURSO C#\\API NET CORE\\API Provincias RD\\API InfoProvinciasRD\\API InfoProvinciasRD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eleikel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Eleikel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

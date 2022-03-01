@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,6 +14,8 @@ namespace API_InfoProvinciasRD.Models.Dto
         public string Nombre { get; set; }
         [Required(ErrorMessage = "El campo Descripcion es obligatorio")]
         public string Descripcion { get; set; }
+        public string RutaImagen { get; set; }
+        public IFormFile Foto { get; set; }
         [Required(ErrorMessage = "El campo Fundacion es obligatorio")]
         public string Fundacion { get; set; }
         [Required(ErrorMessage = "El campo Superficie es obligatorio")]

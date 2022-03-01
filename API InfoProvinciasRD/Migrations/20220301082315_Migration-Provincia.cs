@@ -14,6 +14,7 @@ namespace API_InfoProvinciasRD.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    RutaImagen = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Fundacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Superficie = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     regionId = table.Column<int>(type: "int", nullable: false)

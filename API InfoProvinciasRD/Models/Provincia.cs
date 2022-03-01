@@ -14,6 +14,7 @@ namespace API_InfoProvinciasRD.Models
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
+        public string RutaImagen { get; set; }
         public string Fundacion { get; set; }
         public string Superficie { get; set; }
 

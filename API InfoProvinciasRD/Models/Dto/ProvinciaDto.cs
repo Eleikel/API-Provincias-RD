@@ -15,6 +15,8 @@ namespace API_InfoProvinciasRD.Models.Dto
         public string Nombre { get; set; }
         [Required(ErrorMessage = "El campo Descripcion es obligatorio")]
         public string Descripcion { get; set; }
+        [Required(ErrorMessage = "La Ruta Imagen es obligatoria")]
+        public string RutaImagen { get; set; }
         [Required(ErrorMessage = "El campo Fundacion es obligatorio")]
         public string Fundacion { get; set; }
         [Required(ErrorMessage = "El campo Superficie es obligatorio")]

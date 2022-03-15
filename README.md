@@ -1,22 +1,22 @@
 
-##  |API WEB InfoProvinciaRD|  
+#  API WEB InfoProvinciaRD
 
 This is an API RESTful made in ASP.NET CORE. This API gives you all the information about the provincias and
 region of the Dominican Republic.
 
 
-———— ¿What Did i use to make this API?
+##———— ¿What Did i use to make this API?
 	
 	→ Entity Framework Core (ORM)
 	→ Json Web Token (JWT) with Bearer Authentication
 	
 
-———— Design Patterns:
+##———— Design Patterns:
 
 	→ Repository Pattern
 	→ Unit Of Work
 
 
-———— Database:
+##———— Database:
 
 	→ SQL Server 2019 (With EF)

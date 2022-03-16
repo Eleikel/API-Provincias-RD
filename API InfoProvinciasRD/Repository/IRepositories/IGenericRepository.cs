@@ -15,6 +15,5 @@ namespace API_InfoProvinciasRD.Repository.IRepositories
         Task<bool> Exist(int id);
         Task<bool> Exist(string name);
 
-
     }
 }

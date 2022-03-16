@@ -28,7 +28,7 @@ namespace API_InfoProvinciasRD.Controllers
 
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IConfiguration _config;
+        private readonly IConfiguration _config; // Generar Token
 
 
         public UserController(IUnitOfWork unitOfWork, IMapper mapper, IConfiguration config)

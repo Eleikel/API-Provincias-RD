@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 namespace API_InfoProvinciasRD.Models.Dto
 {
     public class ProvinciaCreateDto
-    {
-
+   {
        // public int Id { get; set; }
         [Required(ErrorMessage = "El campo Nombre es obligatorio")]
         public string Nombre { get; set; }

@@ -86,7 +86,6 @@ namespace API_InfoProvinciasRD.Controllers
         /// <param name="nameProvincia"></param>
         /// <returns></returns>
         [AllowAnonymous]
-        //REPARAR ERROR STATUS CODE 500
         [HttpGet("SearchProvincia")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

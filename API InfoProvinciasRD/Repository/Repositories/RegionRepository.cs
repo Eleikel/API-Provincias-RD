@@ -27,6 +27,15 @@ namespace API_InfoProvinciasRD.Repository.Repositories
             return exist;
         }
 
+        public override async Task<ICollection<Region>> GetAll()
+        {
+            return await dbSet.OrderBy(a => a.Id).ToListAsync();
+
+        }
+        public override async Task<Region> GetById(int regionId)
+        {
+            return await dbSet.FirstOrDefaultAsync(x => x.Id == regionId);
+        }
         public async override Task<bool> Add(Region entity)
         {
             await dbSet.AddAsync(entity);

@@ -10,7 +10,7 @@ namespace API_InfoProvinciasRD.Repository.IConfiguration
     {
         IRegionRepository Region { get; }
         IProvinciaRepository Provincia { get; }
-         IUserRepository User { get;}
+        IUserRepository User { get; }
 
         Task CompleteAsync();
     }

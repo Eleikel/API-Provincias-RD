@@ -45,14 +45,14 @@ namespace API_InfoProvinciasRD.Repository.Repositories
             throw new NotImplementedException();
         }
 
-        public virtual async Task<ICollection<T>> GetAll()
+        public virtual  Task<ICollection<T>> GetAll()
         {
-            return await dbSet.ToListAsync();
+            throw new NotImplementedException();
         }
 
-        public virtual async Task<T> GetById(int id)
+        public virtual  Task<T> GetById(int id)
         {
-            return await dbSet.FindAsync(id);
+            throw new NotImplementedException();
         }
 
     }
